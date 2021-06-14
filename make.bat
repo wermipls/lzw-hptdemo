@@ -1,0 +1,1 @@
+.\tools\sjasmplus.exe prog.asm --sld --fullpath --msg=war

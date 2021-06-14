@@ -1,0 +1,22 @@
+assets used:
+
+
+
+Enter Command font
+
+fontenddev.com (CC BY 4.0)
+
+
+VTII PT3 player
+
+bulba.untergrund.net
+
+
+8b*8b multiplication
+
+adapted from cpcwiki.eu
+
+
+aPLib decompressor
+
+by spke, from cpcwiki.eu/forum

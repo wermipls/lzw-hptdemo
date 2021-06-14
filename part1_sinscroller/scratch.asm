@@ -1,0 +1,14 @@
+SINSCROLLER_SCRATCH:
+	ALIGN 256
+font_lut:
+	BLOCK (2*128)
+	BLOCK (2*128)
+	BLOCK (2*128)
+	BLOCK (2*128)
+assets_font_preshifted:
+	BLOCK (14*2*64)
+.two:
+	BLOCK (14*2*64)
+.three:
+	BLOCK (14*2*64)
+SINSCROLLER_SCRATCH_END:

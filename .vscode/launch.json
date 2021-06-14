@@ -1,0 +1,45 @@
+{
+"configurations": [
+        {
+            "type": "dezog",
+            "request": "launch",
+            "name": "DeZog",
+            "remoteType": "zsim",
+            "zrcp": {
+                "port": 10000,
+                "loadDelay": 1000
+            },
+            "zsim": {
+                "loadZxRom": true,
+                "zxKeyboard": false,
+                "ulaScreen": true,
+                "visualMemory": true,
+                "vsyncInterrupt": true,
+                "memoryModel": "ZX128K"
+            },
+            "sjasmplus": [
+                {
+                    "path": "prog.sld.txt"
+                }
+            ],
+            "startAutomatically": false,
+            "history": {
+                "reverseDebugInstructionCount": 10000,
+                "codeCoverageEnabled": true
+            },
+            "commandsAfterLaunch": [
+                "-WPMEM enable",
+                //"-sprites",
+                //"-patterns"
+            ],
+            "disassemblerArgs": {
+        		"numberOfLines": 20,
+                "esxdosRst": true
+            },
+            "rootFolder": "${workspaceFolder}",
+            //"topOfStack": "stack_top",
+            "load": "build/output.sna",
+            "smallValuesMaximum": 513,
+            "tmpDir": ".tmp"
+       }
+]}
