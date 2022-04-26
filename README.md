@@ -1,4 +1,9 @@
 # lzw-hptdemo
+
+YouTube:
+
+[![YouTube thumbnail](https://img.youtube.com/vi/QP02N3DkvTo/0.jpg)](https://www.youtube.com/watch?v=QP02N3DkvTo)
+
 **happy party three demo** is a ZX Spectrum 128K production, done by LZW group and first shown at the happy party three (an online visual art show). The source code is presented mostly for archival purposes - due to being my first attempt at coding something bigger in Z80 assembly, the code is mostly a mess and probably not good for anyone to use as a reference. 
 
 # Credits
